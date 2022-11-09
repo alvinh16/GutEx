@@ -1,0 +1,43 @@
+Script started on 2020-05-10 20:26:19+08:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+[1m[7m%[27m[1m[0m                                                                                ]2;alvinh@aspire4755g: ~/Documents/Python/Guttag]1;..Python/Guttag[0m[27m[24m[J[36malvinh[00m@[33maspire4755g:[32m/home/alvinh/Documents/Python/Guttag[00m $ [K[?1h=[?2004hccat gut9.py[1m [0m[0m [?1l>[?2004l
+]2;cat gut9.py]1;cat#!/usr/bin/python3.8
+
+# import math
+# import re
+row = []
+
+def GetObj():
+
+    Raw = input ("Please give list of objects : ")
+    Organize = Raw.split(" ")
+    return (Organize)
+
+def PrtRow(objects):
+
+    ArrLength = len(objects)
+    print ("The length of the list is, ", str(ArrLength))
+    i = 0
+    while i < ArrLength :
+          print (objects[i])
+          i += 1
+
+print ("This program organizes a list of objects into an array.")
+row = GetObj()
+
+PrtRow(row)
+
+[1m[7m%[27m[1m[0m                                                                                ]2;alvinh@aspire4755g: ~/Documents/Python/Guttag]1;..Python/Guttag[0m[27m[24m[J[36malvinh[00m@[33maspire4755g:[32m/home/alvinh/Documents/Python/Guttag[00m $ [K[?1h=[?2004hppy38 gut9.py[1m [0m[0m [?1l>[?2004l
+]2;python3.8 gut9.py]1;py38This program organizes a list of objects into an array.
+Please give list of objects : plate cup refrigerator stove oven sink fork spoon
+The length of the list is,  8
+plate
+cup
+refrigerator
+stove
+oven
+sink
+fork
+spoon
+[1m[7m%[27m[1m[0m                                                                                ]2;alvinh@aspire4755g: ~/Documents/Python/Guttag]1;..Python/Guttag[0m[27m[24m[J[36malvinh[00m@[33maspire4755g:[32m/home/alvinh/Documents/Python/Guttag[00m $ [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on 2020-05-10 20:27:09+08:00 [COMMAND_EXIT_CODE="0"]
