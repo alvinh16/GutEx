@@ -1,5 +1,4 @@
-## Introduction to Computation &
-## Programming Using Pyton
+## Introduction to Computation & Programming Using Pyton
 ## With application to understanding data
 ## by John V Guttag
 
